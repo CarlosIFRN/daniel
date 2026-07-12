@@ -20,12 +20,15 @@ public class Playlist {
     
     private ArrayList<Musica> musicas;
     
-    public Playlist() { }
+    public Playlist() {
+        this.musicas = new ArrayList<>();
+    }
 
     public Playlist(Usuario dono, String nome, String descricao) {
         this.dono = dono;
         this.nome = nome;
         this.descricao = descricao;
+        this.musicas = new ArrayList<>();
     }
 
     public Usuario getDono() {
@@ -62,6 +65,11 @@ public class Playlist {
     
     public void adicionarAPlaylist(Musica musica){
         this.musicas.add(musica);
+    }
+    
+    @Override
+    public String toString() {
+        return "Playlist{nome='" + nome + "', descricao='" + descricao + "', dono='" + (dono != null ? dono.getNome() : "sem dono") + "'}";
     }
     
     //TODO: e os demais métodos de manipular músicas da playlist.

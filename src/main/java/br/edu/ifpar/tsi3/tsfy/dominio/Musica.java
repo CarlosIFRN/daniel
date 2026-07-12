@@ -63,4 +63,8 @@ public class Musica {
         this.duracao = duracao;
     }
     
+    @Override
+    public String toString() {
+        return "Musica{titulo='" + titulo + "', compositor='" + compositor + "', interprete='" + interprete + "', duracao=" + duracao + "}";
+    }
 }

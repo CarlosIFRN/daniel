@@ -7,6 +7,8 @@ package br.edu.ifpar.tsi3.tsfy.UI.fachada;
 import br.edu.ifpar.tsi3.tsfy.controladores.MusicaControlador;
 import br.edu.ifpar.tsi3.tsfy.controladores.PlaylistControlador;
 import br.edu.ifpar.tsi3.tsfy.controladores.UsuarioControlador;
+import br.edu.ifpar.tsi3.tsfy.dominio.Musica;
+import java.util.ArrayList;
 
 /**
  *
@@ -51,6 +53,10 @@ public class FachadaFrontend {
     public boolean registrarMusica(String titulo, String compositor, String interprete, Double duracao) {
         boolean sucesso = this.controladorDeMusica.registrarMusica(titulo, compositor, interprete, duracao);
         return sucesso;
+    }
+    
+    public java.util.ArrayList<br.edu.ifpar.tsi3.tsfy.dominio.Musica> listarMusicas() {
+        return this.controladorDeMusica.listarMusicas();
     }
     
     

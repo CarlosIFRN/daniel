@@ -1,0 +1,10 @@
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/UI/TsfyUI.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/UI/TsfyUIDesktop.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/UI/fachada/FachadaFrontend.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/controladores/MusicaControlador.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/controladores/PlaylistControlador.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/controladores/UsuarioControlador.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/dominio/Musica.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/dominio/Playlist.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/dominio/Usuario.java
+/workspaces/daniel/src/main/java/br/edu/ifpar/tsi3/tsfy/main/Main.java

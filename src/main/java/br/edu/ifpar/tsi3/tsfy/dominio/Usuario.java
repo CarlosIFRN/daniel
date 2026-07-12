@@ -54,7 +54,12 @@ public class Usuario {
         this.cpf = cpf;
         this.nome = nome;
         this.senha = senha;
+        this.playlists = new ArrayList<>();
     }
     
+    @Override
+    public String toString() {
+        return "Usuario{nome='" + nome + "', cpf='" + cpf + "'}";
+    }
     
 }

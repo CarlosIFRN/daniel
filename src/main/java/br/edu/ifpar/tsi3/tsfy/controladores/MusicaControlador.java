@@ -24,4 +24,34 @@ public class MusicaControlador {
         return true;
     }
     
+    public ArrayList<Musica> listarMusicas() {
+        return new ArrayList<>(this.todasAsMusicas);
+    }
+    
+    public Musica getMusica(int id) {
+        if (id < 0 || id >= this.todasAsMusicas.size()) {
+            return null;
+        }
+        return this.todasAsMusicas.get(id);
+    }
+    
+    public boolean editarMusica(int id, String titulo, String compositor, String interprete, Double duracao) {
+        Musica musica = getMusica(id);
+        if (musica == null) {
+            return false;
+        }
+        musica.setTitulo(titulo);
+        musica.setCompositor(compositor);
+        musica.setInterprete(interprete);
+        musica.setDuracao(duracao);
+        return true;
+    }
+    
+    public boolean removerMusica(int id) {
+        if (id < 0 || id >= this.todasAsMusicas.size()) {
+            return false;
+        }
+        this.todasAsMusicas.remove(id);
+        return true;
+    }
 }

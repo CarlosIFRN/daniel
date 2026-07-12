@@ -1,0 +1,10 @@
+br/edu/ifpar/tsi3/tsfy/controladores/UsuarioControlador.class
+br/edu/ifpar/tsi3/tsfy/controladores/MusicaControlador.class
+br/edu/ifpar/tsi3/tsfy/controladores/PlaylistControlador.class
+br/edu/ifpar/tsi3/tsfy/UI/TsfyUI.class
+br/edu/ifpar/tsi3/tsfy/dominio/Playlist.class
+br/edu/ifpar/tsi3/tsfy/main/Main.class
+br/edu/ifpar/tsi3/tsfy/dominio/Usuario.class
+br/edu/ifpar/tsi3/tsfy/UI/TsfyUIDesktop.class
+br/edu/ifpar/tsi3/tsfy/UI/fachada/FachadaFrontend.class
+br/edu/ifpar/tsi3/tsfy/dominio/Musica.class
